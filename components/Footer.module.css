@@ -17,7 +17,7 @@
 .table {
     display: flex;
     flex-direction: row;
-    gap: 35px;
+    gap: 65px;
     margin: 15px 0;
 }
 
@@ -32,4 +32,19 @@
     margin: auto;
     width: fit-content;
     margin-top: 10px;
+}
+
+.footerSection > h2 {
+    margin-bottom: 5px;
+}
+
+.link {
+    display: block;
+    color: #ccc;
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }

@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 10px 100px;
+  padding: 10px 40px;
   background-color: transparent;
   border: 0;
   color: white;
@@ -30,6 +30,7 @@
   border-radius: 3px;
   font-size: 1.1rem;
   cursor: pointer;
+  transition: background-color ease-in-out 150ms, color ease-in-out 150ms;
 }
 
 .navContent {
@@ -50,8 +51,17 @@
   cursor: default;
 }
 
+.nav:hover {
+  background-color: #fff;
+  color: #2d3d29;
+}
+
 .nav:hover .navContent {
   display: flex;
+  border-radius: 2px;
+  left: -2px; /* Substract the border-width */
+  border-top-left-radius: 0;
+  transition: all ease-in-out 150ms;
 }
 
 .nav .navContent a {
@@ -76,7 +86,7 @@
   height: fit-content;
   right: 25%;
   box-shadow: 2px 2px 12px 1px rgba(0,0,0,0.8);
-  padding: 12px 18px;
+  padding: 17px 25px;
 }
 
 .subcribeButton {
@@ -84,4 +94,19 @@
   margin: 10px auto;
   width: 70%;
   border-radius: 10px;
+}
+
+.search {
+  margin-left: auto;
+}
+
+.getStartedButton {
+  color: #fff;
+  border-color: #fff;
+  transition: background-color ease-in-out 150ms, color ease-in-out 150ms;
+}
+
+.getStartedButton:hover {
+  background-color: #fff;
+  color: #2d3d29;
 }

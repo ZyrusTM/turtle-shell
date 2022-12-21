@@ -25,6 +25,7 @@ import {
   IconTrash,
   IconSwitchHorizontal,
   IconChevronDown,
+  IconSearch,
 } from '@tabler/icons';
 import styles from '../styles/Home.module.css'
 
@@ -115,7 +116,7 @@ export default function Home() {
     ]}></HeaderTabs> */}
 
     <div className={styles.startPage}>
-      <Header height={84} className={styles.header}>
+      <Header height={110} className={styles.header}>
         <h2>Turtle Shell</h2>
         <div className={styles.nav}>
           <span>Products</span>
@@ -176,6 +177,18 @@ export default function Home() {
             <a href='/a'>Test1</a>
             <a href='/a'>Test1</a>
           </div>
+        </div>
+
+        <div className={'search ' + styles.search}>
+          <TextInput icon={<IconSearch />} placeholder="Question" className={styles.searchInput} radius='xl' wrapperProps={{
+            styles: {
+              backgroundColor: 'transparent'
+            }
+          }}/>
+        </div>
+        
+        <div>
+          <Button variant="outline" className={styles.getStartedButton} radius="xl" size="md">Get Started</Button>
         </div>
       </Header>
 
