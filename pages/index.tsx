@@ -11,6 +11,8 @@ import {
   Burger,
   Header,
   Input,
+  TextInput,
+  Button,
 } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import {
@@ -155,12 +157,13 @@ export default function Home() {
 
 
       <div className={styles.container}>
-        <h1>Test</h1>
-        <label htmlFor='email'>Email address</label>
-        <Input id='email' type={'text'}></Input>
-        <label htmlFor='email'>Email address</label>
-        <Input type={'text'}></Input>
-        <Input type={'submit'}></Input>
+        <h2>Subcribe to our newsletter</h2>
+        <p>Weekly news about the development of turtle shell. Exclusive polls for the community.</p>
+        
+        <div>
+          <TextInput id='email' placeholder='Email address'></TextInput>
+          <Button className={styles.subcribeButton}>Subcribe</Button>
+        </div>
       </div>
     </div>
 

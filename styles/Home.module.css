@@ -8,27 +8,27 @@
 
 .header {
   font-family: "Poppins",sans-serif;
-  position: fixed;
   display: flex;
   align-items: center;
   gap: 10px;
   padding: 10px 100px;
-}
-
-.header:stuck {
-  background-color: #000 !important;
+  background-color: transparent;
+  border: 0;
+  color: white;
 }
 
 .header h2 {
   margin-right: 18px;
+  font-size: 2rem;
 }
 
 .nav {
   position: relative;
   display: inline-block;
   padding: 10px 18px;
-  border: 2px #ccc solid;
+  border: 2px #cccccc22 solid;
   border-radius: 3px;
+  font-size: 1.1rem;
 }
 
 .navContent {
@@ -56,8 +56,15 @@
   top: 50%;
   transform: translateY(-50%);
   width: 350px;
-  height: 450px;
+  height: fit-content;
   right: 25%;
   box-shadow: 2px 2px 12px 1px rgba(0,0,0,0.8);
   padding: 12px 18px;
+}
+
+.subcribeButton {
+  display: block;
+  margin: 10px auto;
+  width: 70%;
+  border-radius: 10px;
 }
