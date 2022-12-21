@@ -3,6 +3,7 @@ import '../styles/globals.css'
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { MantineProvider } from '@mantine/core';
+import Footer from '../components/Footer';
 
 export default function App(props: AppProps) {
   const { Component, pageProps } = props;
@@ -23,6 +24,7 @@ export default function App(props: AppProps) {
         }}
       >
         <Component {...pageProps} />
+        <Footer></Footer>
       </MantineProvider>
     </>
   );

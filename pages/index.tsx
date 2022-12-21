@@ -9,6 +9,8 @@ import {
   Menu,
   Tabs,
   Burger,
+  Header,
+  Input,
 } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import {
@@ -22,6 +24,7 @@ import {
   IconSwitchHorizontal,
   IconChevronDown,
 } from '@tabler/icons';
+import styles from '../styles/Home.module.css'
 
 const useStyles = createStyles((theme) => ({
   header: {
@@ -95,7 +98,7 @@ interface HeaderTabsProps {
 
 export default function Home() {
   return <>
-  <HeaderTabs user={{
+  {/* <HeaderTabs user={{
       "name": "Jane Spoonfighter",
       "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=255&q=80"
     }} tabs={[
@@ -107,7 +110,61 @@ export default function Home() {
       "Support",
       "Account",
       "Helpdesk"
-    ]}></HeaderTabs>
+    ]}></HeaderTabs> */}
+
+    <div className={styles.startPage}>
+      <Header height={84} className={styles.header}>
+        <h2>Turtle Shell</h2>
+        <div className={styles.nav}>
+          <span>Products</span>
+          <div className={styles.navContent}>
+            <h1>Test</h1>
+          </div>
+        </div>
+        <div className={styles.nav}>
+          <span>Developers</span>
+          <div className={styles.navContent}>
+            <h1>Test</h1>
+          </div>
+        </div>
+        <div className={styles.nav}>
+          <span>Pricing</span>
+          <div className={styles.navContent}>
+            <h1>Test</h1>
+          </div>
+        </div>
+        <div className={styles.nav}>
+          <span>Blog</span>
+          <div className={styles.navContent}>
+            <h1>Test</h1>
+          </div>
+        </div>
+        <div className={styles.nav}>
+          <span>About us</span>
+          <div className={styles.navContent}>
+            <h1>Test</h1>
+          </div>
+        </div>
+        <div className={styles.nav}>
+          <span>Partners</span>
+          <div className={styles.navContent}>
+            <h1>Test</h1>
+          </div>
+        </div>
+      </Header>
+
+
+      <div className={styles.container}>
+        <h1>Test</h1>
+        <label htmlFor='email'>Email address</label>
+        <Input id='email' type={'text'}></Input>
+        <label htmlFor='email'>Email address</label>
+        <Input type={'text'}></Input>
+        <Input type={'submit'}></Input>
+      </div>
+    </div>
+
+
   </>
 }
 
