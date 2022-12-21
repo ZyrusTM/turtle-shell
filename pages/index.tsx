@@ -120,37 +120,61 @@ export default function Home() {
         <div className={styles.nav}>
           <span>Products</span>
           <div className={styles.navContent}>
-            <h1>Test</h1>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
           </div>
         </div>
         <div className={styles.nav}>
           <span>Developers</span>
           <div className={styles.navContent}>
-            <h1>Test</h1>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
           </div>
         </div>
         <div className={styles.nav}>
           <span>Pricing</span>
           <div className={styles.navContent}>
-            <h1>Test</h1>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
           </div>
         </div>
         <div className={styles.nav}>
           <span>Blog</span>
           <div className={styles.navContent}>
-            <h1>Test</h1>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
           </div>
         </div>
         <div className={styles.nav}>
           <span>About us</span>
           <div className={styles.navContent}>
-            <h1>Test</h1>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
           </div>
         </div>
         <div className={styles.nav}>
           <span>Partners</span>
           <div className={styles.navContent}>
-            <h1>Test</h1>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
+            <a href='/a'>Test1</a>
           </div>
         </div>
       </Header>
