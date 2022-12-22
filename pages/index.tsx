@@ -1,33 +1,12 @@
 import { useState } from 'react';
 import {
-  createStyles,
-  Container,
-  Avatar,
-  UnstyledButton,
-  Group,
-  Text,
-  Menu,
-  Tabs,
-  Burger,
-  Header,
-  Input,
-  TextInput,
   Button,
+  TextInput,
+  createStyles,
 } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import {
-  IconLogout,
-  IconHeart,
-  IconStar,
-  IconMessage,
-  IconSettings,
-  IconPlayerPause,
-  IconTrash,
-  IconSwitchHorizontal,
-  IconChevronDown,
-  IconSearch,
-} from '@tabler/icons';
 import styles from '../styles/Home.module.css'
+import Header from '../components/Header';
 
 const useStyles = createStyles((theme) => ({
   header: {
@@ -116,179 +95,20 @@ export default function Home() {
     ]}></HeaderTabs> */}
 
     <div className={styles.startPage}>
-      <Header height={110} className={styles.header}>
-        <h2>Turtle Shell</h2>
-        <div className={styles.nav}>
-          <span>Products</span>
-          <div className={styles.navContent}>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-          </div>
-        </div>
-        <div className={styles.nav}>
-          <span>Developers</span>
-          <div className={styles.navContent}>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-          </div>
-        </div>
-        <div className={styles.nav}>
-          <span>Pricing</span>
-          <div className={styles.navContent}>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-          </div>
-        </div>
-        <div className={styles.nav}>
-          <span>Blog</span>
-          <div className={styles.navContent}>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-          </div>
-        </div>
-        <div className={styles.nav}>
-          <span>About us</span>
-          <div className={styles.navContent}>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-          </div>
-        </div>
-        <div className={styles.nav}>
-          <span>Partners</span>
-          <div className={styles.navContent}>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-            <a href='/a'>Test1</a>
-          </div>
-        </div>
-
-        <div className={'search ' + styles.search}>
-          <TextInput icon={<IconSearch />} placeholder="Question" className={styles.searchInput} radius='xl' wrapperProps={{
-            styles: {
-              backgroundColor: 'transparent'
-            }
-          }}/>
-        </div>
-        
-        <div>
-          <Button variant="outline" className={styles.getStartedButton} radius="xl" size="md">Get Started</Button>
-        </div>
-      </Header>
-
+      <Header />
 
       <div className={styles.container}>
-        <h2>Subcribe to our newsletter</h2>
-        <p>Weekly news about the development of turtle shell. Exclusive polls for the community.</p>
-        
-        <div>
-          <TextInput id='email' placeholder='Email address'></TextInput>
-          <Button className={styles.subcribeButton}>Subcribe</Button>
+          <h2>Subcribe to our newsletter</h2>
+          <p>Weekly news about the development of turtle shell. Exclusive polls for the community.</p>
+          
+          <div>
+            <TextInput id='email' placeholder='Email address'></TextInput>
+            <Button className={styles.subcribeButton}>Subcribe</Button>
+          </div>
         </div>
-      </div>
+        
     </div>
 
 
   </>
-}
-
-function HeaderTabs({ user, tabs }: HeaderTabsProps) {
-  const { classes, theme, cx } = useStyles();
-  const [opened, { toggle }] = useDisclosure(false);
-  const [userMenuOpened, setUserMenuOpened] = useState(false);
-
-  const items = tabs.map((tab) => (
-    <Tabs.Tab value={tab} key={tab}>
-      {tab}
-    </Tabs.Tab>
-  ));
-
-  return (
-    <div className={classes.header}>
-      <Container className={classes.mainSection}>
-        <Group position="apart">
-          <Burger opened={opened} onClick={toggle} className={classes.burger} size="sm" />
-
-          <Menu
-            width={260}
-            position="bottom-end"
-            transition="pop-top-right"
-            onClose={() => setUserMenuOpened(false)}
-            onOpen={() => setUserMenuOpened(true)}
-          >
-            <Menu.Target>
-              <UnstyledButton
-                className={cx(classes.user, { [classes.userActive]: userMenuOpened })}
-              >
-                <Group spacing={7}>
-                  <Avatar src={user.image} alt={user.name} radius="xl" size={20} />
-                  <Text weight={500} size="sm" sx={{ lineHeight: 1 }} mr={3}>
-                    {user.name}
-                  </Text>
-                  <IconChevronDown size={12} stroke={1.5} />
-                </Group>
-              </UnstyledButton>
-            </Menu.Target>
-            <Menu.Dropdown>
-              <Menu.Item icon={<IconHeart size={14} color={theme.colors.red[6]} stroke={1.5} />}>
-                Liked posts
-              </Menu.Item>
-              <Menu.Item icon={<IconStar size={14} color={theme.colors.yellow[6]} stroke={1.5} />}>
-                Saved posts
-              </Menu.Item>
-              <Menu.Item icon={<IconMessage size={14} color={theme.colors.blue[6]} stroke={1.5} />}>
-                Your comments
-              </Menu.Item>
-
-              <Menu.Label>Settings</Menu.Label>
-              <Menu.Item icon={<IconSettings size={14} stroke={1.5} />}>Account settings</Menu.Item>
-              <Menu.Item icon={<IconSwitchHorizontal size={14} stroke={1.5} />}>
-                Change account
-              </Menu.Item>
-              <Menu.Item icon={<IconLogout size={14} stroke={1.5} />}>Logout</Menu.Item>
-
-              <Menu.Divider />
-
-              <Menu.Label>Danger zone</Menu.Label>
-              <Menu.Item icon={<IconPlayerPause size={14} stroke={1.5} />}>
-                Pause subscription
-              </Menu.Item>
-              <Menu.Item color="red" icon={<IconTrash size={14} stroke={1.5} />}>
-                Delete account
-              </Menu.Item>
-            </Menu.Dropdown>
-          </Menu>
-        </Group>
-      </Container>
-      <Container>
-        <Tabs
-          defaultValue="Home"
-          variant="outline"
-          classNames={{
-            root: classes.tabs,
-            tabsList: classes.tabsList,
-            tab: classes.tab,
-          }}
-        >
-          <Tabs.List>{items}</Tabs.List>
-        </Tabs>
-      </Container>
-    </div>
-  );
 }

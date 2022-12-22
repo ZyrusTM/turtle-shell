@@ -6,74 +6,6 @@
   width: 100%;
 }
 
-.header {
-  font-family: "Poppins",sans-serif;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 40px;
-  background-color: transparent;
-  border: 0;
-  color: white;
-}
-
-.header h2 {
-  margin-right: 18px;
-  font-size: 2rem;
-}
-
-.nav {
-  position: relative;
-  display: inline-block;
-  padding: 10px 18px;
-  border: 2px #cccccc22 solid;
-  border-radius: 3px;
-  font-size: 1.1rem;
-  cursor: pointer;
-  transition: background-color ease-in-out 150ms, color ease-in-out 150ms;
-}
-
-.navContent {
-  display: none;
-  flex-direction: column;
-  position: absolute;
-  background-color: #f9f9f9;
-  color: #000;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
-  left: 0;
-  top: 100%;
-}
-
-.navContent:hover {
-  cursor: default;
-}
-
-.nav:hover {
-  background-color: #fff;
-  color: #2d3d29;
-}
-
-.nav:hover .navContent {
-  display: flex;
-  border-radius: 2px;
-  left: -2px; /* Substract the border-width */
-  border-top-left-radius: 0;
-  transition: all ease-in-out 150ms;
-}
-
-.nav .navContent a {
-  padding: 8px 12px;
-}
-
-.nav .navContent a:hover {
-  background-color: #ddd;
-  border-radius: 5px;
-}
-
-
 .container {
   position: absolute;
   display: block;
@@ -87,26 +19,4 @@
   right: 25%;
   box-shadow: 2px 2px 12px 1px rgba(0,0,0,0.8);
   padding: 17px 25px;
-}
-
-.subcribeButton {
-  display: block;
-  margin: 10px auto;
-  width: 70%;
-  border-radius: 10px;
-}
-
-.search {
-  margin-left: auto;
-}
-
-.getStartedButton {
-  color: #fff;
-  border-color: #fff;
-  transition: background-color ease-in-out 150ms, color ease-in-out 150ms;
-}
-
-.getStartedButton:hover {
-  background-color: #fff;
-  color: #2d3d29;
 }
