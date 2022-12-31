@@ -7,6 +7,7 @@ import {
 import { useDisclosure } from '@mantine/hooks';
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const useStyles = createStyles((theme) => ({
   header: {
@@ -106,6 +107,8 @@ export default function Home() {
             <Button className={styles.subcribeButton}>Subcribe</Button>
           </div>
         </div>
+
+        <Footer />
         
     </div>
 
