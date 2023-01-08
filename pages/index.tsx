@@ -127,11 +127,11 @@ export default function Home() {
       <h1>Benefits</h1>
       <div>
         <div className={styles.benefitListItem}>
-          <Image src={RelaxImage} width={150}/>
+          <Image src={RelaxImage} width={150} alt="Relaxed man"/>
           <span>Sicherheit</span>
         </div>
         <div className={styles.benefitListItem}>
-          <Image src={ProtectionImage} width={150}/>
+          <Image src={ProtectionImage} width={150} alt="Shield"/>
           <span>Komfort</span>
         </div>
       </div>

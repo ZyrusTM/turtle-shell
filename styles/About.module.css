@@ -4,6 +4,55 @@
   background: radial-gradient(circle at left bottom, #21632d 45%, #4982ba 100%);
 }
 
-.textBox{
-    margin: 65px;
+.text{
+  margin-top: 65px;
+  margin-left: 400px;
+  margin-right: 400px;
+  font-size: large;
 }
+
+.containerVergleichAufbau{
+  margin-top: 50px;
+  height: 450px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.imgTraditionellerAufbau{
+  display: inline-block;
+} 
+
+.imgContainer{
+  float: right;
+}
+
+.textBoxVorteile{
+  margin-top: 50px;
+  margin-left: 400px;
+  font-size: large;
+}
+
+.boxVirtualisierung{
+  font-size: large;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 50px;
+}
+
+.imgVirtualisierung{
+ /* display: block; 
+ margin: auto; 
+ width: 50%;  */
+}
+
+.vergleichConVir{
+  margin-top: 50px;
+  margin-left: 400px;
+  font-size: large;
+}
+
+.imgVergleich{
+  position: relative;
+  top: 20px;
+}
+
