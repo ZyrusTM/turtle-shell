@@ -10,6 +10,10 @@ export function renderNavigation(hasNav: boolean) {
     return <Navigation buttons={
         [
             {
+                name: 'Home',
+                url: '/'
+            },
+            {
             name: 'Products',
             url: '/test'
             },
@@ -45,6 +49,10 @@ export function renderNavigation(hasNav: boolean) {
             {
             name: 'Partners',
             url: '/partners'
+            },
+            {
+                name: 'About',
+                url: '/about'
             }
         ]
         } />

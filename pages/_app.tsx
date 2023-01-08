@@ -12,7 +12,7 @@ export default function App(props: AppProps) {
   return (
     <>
       <Head>
-        <title>Default Page title</title>
+        <title>Turtle Shell Project</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
       </Head>
 

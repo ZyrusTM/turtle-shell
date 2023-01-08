@@ -1,11 +1,16 @@
 
 .startPage {
   position: relative;
-  height: 92vh;
+  height: 500px;
   /* background: radial-gradient(circle at left top, #21632d , #2d3d29); */
   background: radial-gradient(circle at left bottom, #21632d 45%, #4982ba 100%);
   width: 100%;
 }
+
+/* .logo{
+  margin-top: 45;
+  margin-left: 100px;
+} */
 
 .borderedContainer {
   display: block;
@@ -25,10 +30,6 @@
   width: fit-content;
   width: 88%;
   max-width: 1280px;
-}
-
-.centeredText {
-  text-align: center;
 }
 
 .subscription {
