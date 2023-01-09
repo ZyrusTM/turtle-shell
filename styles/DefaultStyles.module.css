@@ -1,3 +1,9 @@
+.navBorder{
+  position: relative;
+  height: 110px;
+  background: radial-gradient(circle at left bottom, #21632d 45%, #4982ba 100%);
+}
+
 .centeredText {
     text-align: center;
   }

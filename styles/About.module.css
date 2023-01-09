@@ -1,9 +1,3 @@
-.navBorder{
-  position: relative;
-  height: 110px;
-  background: radial-gradient(circle at left bottom, #21632d 45%, #4982ba 100%);
-}
-
 .text{
   margin-top: 65px;
   margin-left: 400px;

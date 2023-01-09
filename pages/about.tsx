@@ -10,7 +10,7 @@ import Vergleich from '../public/img/vergleichConVir.png';
 
 export default function About() {
     return (<>
-    <div className={styles.navBorder}>
+    <div className={defStyles.navBorder}>
     <Header />
     </div>
 

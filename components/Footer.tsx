@@ -39,7 +39,7 @@ export default function Footer() {
                 <span>|</span>
                 <span>Privacy</span>
                 <span>|</span>
-                <span>Legal</span>
+                <a href='/impress'>Impress</a>
             </div>
         </footer>
     )
