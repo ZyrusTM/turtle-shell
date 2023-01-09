@@ -41,7 +41,7 @@ export default function About() {
     <div className={styles.boxVirtualisierung}>
       <h1>Virtualisierung</h1>
       <Image className={styles.imgVirtualisierung} src={Virtualisierung} alt="Aufbau des Computers mit virtuellen Maschinen"/>
-      <p>Virtuelle Maschinen (VMs) sind Umgebungen, die ähnlich wie Container Betriebssystemvirtualisierung ermöglichen. Sie werden auf einem physischen Rechner erstellt
+      <p className={styles.textVirtualisierung}>Virtuelle Maschinen (VMs) sind Umgebungen, die ähnlich wie Container Betriebssystemvirtualisierung ermöglichen. Sie werden auf einem physischen Rechner erstellt
          und können lokal oder extern betrieben werden. Im Vergleich zu Containern sind virtuelle Maschinen viel größer, enthalten
          eigene Betriebssysteme und können Funktionen wie die Emulation ganzer Systeme übernehmen.
       </p>

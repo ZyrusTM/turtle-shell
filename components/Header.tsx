@@ -14,44 +14,36 @@ export function renderNavigation(hasNav: boolean) {
                 url: '/'
             },
             {
-            name: 'Products',
-            url: '/test'
+                name: 'Produkt',
+                url: '/product'
             },
             {
-            name: 'Developers',
-            buttons: [
-                {
-                name: 'Test1',
-                url: '/test1'
+                name: 'Preismodell',
+                url: '/pricing'
+            },
+            {
+                name: 'Blog',
+                url: '/blog'
+            },
+            {
+                name: 'Entwickler',
+                buttons: [
+                    {
+                    name: 'Zyrus',
+                    url: '/test1'
+                    },
+                    {
+                    name: 'DevCyntrix',
+                    url: '/test2'
+                    },
+                    {
+                    name: 'Pascal God Deadwave',
+                    url: '/test3'
+                    }
+                ]
                 },
-                {
-                name: 'Test2',
-                url: '/test2'
-                },
-                {
-                name: 'Test3',
-                url: '/test3'
-                },
-                {
-                name: 'Test4',
-                url: '/test4'
-                }
-            ]
-            },
             {
-            name: 'Pricing',
-            url: '/pricing'
-            },
-            {
-            name: 'Blog',
-            url: '/blog'
-            },
-            {
-            name: 'Partners',
-            url: '/partners'
-            },
-            {
-                name: 'About',
+                name: 'Containerisierung',
                 url: '/about'
             }
         ]
@@ -68,7 +60,7 @@ export default function Header() {
                 {renderNavigation(true)}
 
                 <div className={'search ' + styles.search}>
-                <TextInput icon={<IconSearch />} placeholder="Question" className={styles.searchInput} radius='xl' wrapperProps={{
+                <TextInput icon={<IconSearch />} placeholder="Suche" className={styles.searchInput} radius='xl' wrapperProps={{
                     styles: {
                     backgroundColor: 'transparent'
                     }
@@ -76,7 +68,7 @@ export default function Header() {
                 </div>
                 
                 <div>
-                <Button variant="outline" className={styles.getStartedButton} radius="xl" size="md">Get Started</Button>
+                <Button variant="outline" className={styles.getStartedButton} radius="xl" size="md">Starte jetzt</Button>
                 </div>
             </MantineHeader>
         </>)

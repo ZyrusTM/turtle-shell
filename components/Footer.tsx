@@ -8,12 +8,12 @@ export default function Footer() {
                 <div className={styles.table}>
                     <section className={styles.footerSection}>
                         <h2>Über uns</h2>
-                        <a className={styles.link}>Unterstützer</a>
+                        <a className={styles.link}>GitHub</a>
                         <a className={styles.link}>Spenden</a>
                     </section>
                     <section className={styles.footerSection}>
                         <h2>Projekt</h2>
-                        <a className={styles.link}>GitHub</a>
+                        <a className={styles.link}>Unterstützer</a>
                         <a className={styles.link}>Q & A</a>
                     </section>
                     <section className={styles.footerSection}>

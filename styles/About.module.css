@@ -8,9 +8,8 @@
 .containerVergleichAufbau{
   display: flex;
   gap: 65px;
-  /* width: 80%;
-  margin: auto; */
-  justify-content: center;
+  width: 80%;
+  margin: auto;
   margin-top: 50px;
   flex-wrap: wrap;
 }
@@ -43,10 +42,14 @@
  width: 50%;  
 } */
 
-.vergleichConVir{
+.textVirtualisierung{
   margin-top: 50px;
+}
+
+.vergleichConVir{
   width: 80%;
   margin: auto;
+  margin-top: 50px;
   font-size: large;
 }
 

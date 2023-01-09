@@ -108,20 +108,17 @@ export default function Home() {
       <div className={styles.subscription}>
           <h2>Abonniere unseren Newsletter</h2>
           <p>Wöchentliche News über die Entwicklung von Turtle Shell. Exklusive Umfragen für die Community.</p>
-          
           <div>
             <TextInput id='email' placeholder='Email Adresse'></TextInput>
-            <Button className={styles.subcribeButton}>Abonnieren</Button>
+            <Button className={styles.subscribeButton}>Abonnieren</Button>
           </div>
       </div>
     </div>
 
-    <div className={styles.container}>
-      <h1 className={defStyles.centeredText}>Turtle Shell macht Entwicklung effizient und einfacher</h1>
-      <p className={defStyles.centeredText}>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi dolorum beatae odio perferendis laborum obcaecati numquam, adipisci culpa. Molestias, vitae! Officia totam culpa nobis excepturi inventore, omnis repudiandae cumque quo! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore saepe quo ipsum voluptate, temporibus nulla! Vero qui, neque ipsum harum quis minus, aliquam vitae natus porro excepturi saepe, nobis quibusdam!
-      </p>
-    </div>
+    <h1 className={styles.introduction}>Turtle Shell macht Entwicklung effizient und einfach</h1>
+    <p className={styles.introductionText}>
+      Turtle Shell ist eines der modernsten Containerisierungs-Tools auf dem Markt. Lerne die Vorteile kennen und starte noch Heute in eine effektivere, effizientere und einfachere Entwicklung.
+    </p>
 
     <div className={styles.container}>
       <h1>Vorteile:</h1>
