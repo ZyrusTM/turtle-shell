@@ -22,19 +22,19 @@ export function renderNavigation(hasNav: boolean) {
             buttons: [
                 {
                 name: 'Test1',
-                url: '/a'
+                url: '/test1'
                 },
                 {
-                name: 'Test1',
-                url: '/a'
+                name: 'Test2',
+                url: '/test2'
                 },
                 {
-                name: 'Test1',
-                url: '/a'
+                name: 'Test3',
+                url: '/test3'
                 },
                 {
-                name: 'Test1',
-                url: '/a'
+                name: 'Test4',
+                url: '/test4'
                 }
             ]
             },
