@@ -1,15 +1,17 @@
 .text{
-  margin-top: 65px;
   width: 80%;
   margin: auto;
+  margin-top: 65px;
   font-size: large;
 }
 
 .containerVergleichAufbau{
   display: flex;
-  margin-top: 50px;
   gap: 65px;
+  /* width: 80%;
+  margin: auto; */
   justify-content: center;
+  margin-top: 50px;
   flex-wrap: wrap;
 }
 
@@ -22,9 +24,9 @@
 }
 
 .textBoxVorteile{
-  margin-top: 50px;
   width: 80%;
   margin: auto;
+  margin-top: 50px;
   font-size: large;
 }
 
@@ -35,11 +37,11 @@
   margin-top: 50px;
 }
 
-.imgVirtualisierung {
- /* display: block; 
+/* .imgVirtualisierung {
+ display: block; 
  margin: auto; 
- width: 50%;  */
-}
+ width: 50%;  
+} */
 
 .vergleichConVir{
   margin-top: 50px;

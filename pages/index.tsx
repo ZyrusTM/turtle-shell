@@ -103,28 +103,28 @@ export default function Home() {
     <div className={styles.startPage}>
       <Header />
 
-      {/* <Image className={styles.logo} src={Logo} width={300}/> */}
+      <Image className={styles.logo} src={Logo} width={350} alt="Turtle Shell Logo"/>
 
       <div className={styles.subscription}>
-          <h2>Subcribe to our newsletter</h2>
-          <p>Weekly news about the development of turtle shell. Exclusive polls for the community.</p>
+          <h2>Abonniere unseren Newsletter</h2>
+          <p>Wöchentliche News über die Entwicklung von Turtle Shell. Exklusive Umfragen für die Community.</p>
           
           <div>
-            <TextInput id='email' placeholder='Email address'></TextInput>
-            <Button className={styles.subcribeButton}>Subcribe</Button>
+            <TextInput id='email' placeholder='Email Adresse'></TextInput>
+            <Button className={styles.subcribeButton}>Abonnieren</Button>
           </div>
       </div>
     </div>
 
     <div className={styles.container}>
-      <h1 className={defStyles.centeredText}>Turtle Shell makes development efficient and predictable</h1>
+      <h1 className={defStyles.centeredText}>Turtle Shell macht Entwicklung effizient und einfacher</h1>
       <p className={defStyles.centeredText}>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi dolorum beatae odio perferendis laborum obcaecati numquam, adipisci culpa. Molestias, vitae! Officia totam culpa nobis excepturi inventore, omnis repudiandae cumque quo! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore saepe quo ipsum voluptate, temporibus nulla! Vero qui, neque ipsum harum quis minus, aliquam vitae natus porro excepturi saepe, nobis quibusdam!
       </p>
     </div>
 
     <div className={styles.container}>
-      <h1>Benefits</h1>
+      <h1>Vorteile:</h1>
       <div>
         <div className={styles.benefitListItem}>
           <Image src={RelaxImage} width={150} alt="Relaxed man"/>

@@ -7,22 +7,19 @@ export default function Footer() {
             <div className={styles.footerContent}>
                 <div className={styles.table}>
                     <section className={styles.footerSection}>
-                        <h2>About us</h2>
-                        <a className={styles.link}>Test</a>
-                        <a className={styles.link}>Test1</a>
-                        <a className={styles.link}>Test2</a>
+                        <h2>Über uns</h2>
+                        <a className={styles.link}>Unterstützer</a>
+                        <a className={styles.link}>Spenden</a>
                     </section>
                     <section className={styles.footerSection}>
-                        <h2>Project</h2>
-                        <a className={styles.link}>Test</a>
-                        <a className={styles.link}>Test1</a>
-                        <a className={styles.link}>Test2</a>
+                        <h2>Projekt</h2>
+                        <a className={styles.link}>GitHub</a>
+                        <a className={styles.link}>Q & A</a>
                     </section>
                     <section className={styles.footerSection}>
                         <h2>Community</h2>
-                        <a className={styles.link}>Test</a>
-                        <a className={styles.link}>Test1</a>
-                        <a className={styles.link}>Test2</a>
+                        <a className={styles.link}>Block</a>
+                        <a className={styles.link}>Twitter</a>
                     </section>
                 </div>
 
@@ -35,11 +32,11 @@ export default function Footer() {
             <div className={styles.table + " "+ styles.test}>
                 <span>&#169; Turtle Shell</span>
                 <span>|</span>
-                <span>Terms of Service</span>
+                <span>AGB</span>
                 <span>|</span>
-                <span>Privacy</span>
+                <span>Datenschutz</span>
                 <span>|</span>
-                <a href='/impress'>Impress</a>
+                <a href='/impress'>Impressum</a>
             </div>
         </footer>
     )
