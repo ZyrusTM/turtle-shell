@@ -16,7 +16,7 @@ export default function Impress() {
             <h2>Kontakt</h2>
             <p>Telefon: +49 (0) 123 44 55 66<br />Telefax: +49 (0) 123 44 55 99<br />E-Mail: mustermann@musterfirma.de</p>
             <h2>Redaktionell verantwortlich</h2>
-            <p>Beate Beispielhaft<br />Musterstra&szlig;e 110<br />90210 Musterstadt</p>
+            <p>Erik Einfallsreich<br />Musterstra&szlig;e 110<br />90210 Musterstadt</p>
             <p>Quelle: <a href="https://www.e-recht24.de">e-recht24.de</a></p>
         </div>
         

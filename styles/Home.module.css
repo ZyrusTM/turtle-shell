@@ -1,6 +1,6 @@
 .startPage {
   position: relative;
-  height: 500px;
+  height: 550px;
   /* background: radial-gradient(circle at left top, #21632d , #2d3d29); */
   background: radial-gradient(circle at left bottom, #21632d 45%, #4982ba 100%);
   width: 100%;
@@ -48,7 +48,7 @@
   background-color: #fff;
   color: #000;
   border-radius: 3px;
-  top: 50%;
+  top: 55%;
   transform: translateY(-50%);
   width: 350px;
   height: fit-content;
