@@ -13,6 +13,9 @@ import Image from 'next/image';
 import RelaxImage from '../public/img/relax.png'
 import ProtectionImage from '../public/img/shield.png'
 import Logo from '../public/img/logo.png'
+import Efficiency from '../public/img/effizienz.png'
+import Simplicity from '../public/img/einfach.png'
+import Independency from '../public/img/unabhangigkeit.png'
 
 const useStyles = createStyles((theme) => ({
   header: {
@@ -103,7 +106,7 @@ export default function Home() {
     <div className={styles.startPage}>
       <Header />
 
-      <Image className={styles.logo} src={Logo} width={350} alt="Turtle Shell Logo"/>
+      <Image className={styles.logo} src={Logo} width={400} alt="Turtle Shell Logo"/>
 
       <div className={styles.subscription}>
           <h2>Abonniere unseren Newsletter</h2>
@@ -120,12 +123,16 @@ export default function Home() {
       Turtle Shell ist eines der modernsten Containerisierungs-Tools auf dem Markt. Lerne die Vorteile kennen und starte noch Heute in eine effektivere, effizientere und einfachere Entwicklung.
     </p>
 
+    <div className={styles.outerCon}>
     <div className={styles.container}>
-      <h1>Vorteile:</h1>
       <div>
         <div className={styles.benefitListItem}>
           <Image src={RelaxImage} width={150} alt="Relaxed man"/>
           <span>Sicherheit</span>
+        </div>
+        <div className={styles.benefitListItem}>
+          <Image src={Efficiency} width={150} alt="Efficiency"/>
+          <span>Effizienz</span>
         </div>
         <div className={styles.benefitListItem}>
           <Image src={ProtectionImage} width={150} alt="Shield"/>
@@ -133,6 +140,25 @@ export default function Home() {
         </div>
       </div>
     </div>
+
+    <div className={styles.container2}>
+      <div>
+        <div className={styles.benefitListItem}>
+          <Image src={Simplicity} width={150} alt="Simplicity"/>
+          <span>Simplizität</span>
+        </div>
+        <div className={styles.benefitListItem}>
+          <Image src={Independency} width={150} alt="Independency"/>
+          <span>Unabhängig</span>
+        </div>
+        <div className={styles.benefitListItem}>
+          <Image src={ProtectionImage} width={150} alt="Shield"/>
+          <span>Komfort</span>
+        </div>
+      </div>
+    </div>
+    </div>
+  
 
     <Footer />
 
