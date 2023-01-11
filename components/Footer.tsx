@@ -34,7 +34,7 @@ export default function Footer() {
                 <span>|</span>
                 <span>AGB</span>
                 <span>|</span>
-                <span>Datenschutz</span>
+                <a href='/datenschutz'>Datenschutz</a>
                 <span>|</span>
                 <a href='/impress'>Impressum</a>
             </div>
