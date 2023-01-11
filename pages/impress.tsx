@@ -19,8 +19,8 @@ export default function Impress() {
             <p>Erik Einfallsreich<br />Musterstra&szlig;e 110<br />90210 Musterstadt</p>
             <p>Quelle: <a href="https://www.e-recht24.de">e-recht24.de</a></p>
             <br/>
-            <p className={styles.legalNote}>Bei der vorliegenden Seite handelt es sich um eine ausschliesslich privat genutzte Seite zur Präsentation. Das Produkt "Turtle Shell" 
-                wird nicht angeboten und existiert auch nicht.</p>
+            <p className={styles.legalNote}>Bei der vorliegenden Seite handelt es sich um eine ausschliesslich privat genutzte Seite zur Präsentation. 
+            Das Produkt &quot;Turtle Shell&quot; wird nicht angeboten und existiert auch nicht.</p>
         </div>
         
         <Footer></Footer>
