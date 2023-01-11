@@ -1,4 +1,5 @@
 import styles from './Footer.module.css'
+import Link from 'next/link'
 
 
 export default function Footer() {
@@ -34,9 +35,9 @@ export default function Footer() {
                 <span>|</span>
                 <span>AGB</span>
                 <span>|</span>
-                <a href='/datenschutz'>Datenschutz</a>
+                <Link href='/datenschutz'>Datenschutz</Link>
                 <span>|</span>
-                <a href='/impress'>Impressum</a>
+                <Link href='/impress'>Impressum</Link>
             </div>
         </footer>
     )
