@@ -1,0 +1,60 @@
+.title{
+    width: 75%;
+    margin: auto;
+    margin-top: 65px;
+    font-size: large;
+}
+
+.firstCon{
+    display: flex;
+    gap: 80px;
+    width: 75%;
+    margin: auto;
+    margin-top: 65px;
+    flex-wrap: wrap;
+    font-size: large;
+  }
+  
+  .education{
+    display: inline-block;
+  } 
+  
+  .imgEdu{
+    float: right;
+  }
+
+  .secondCon{
+    display: flex;
+    gap: 80px;
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    font-size: large;
+  }
+  
+  .personal{
+    float: right;
+  } 
+  
+  .imgPersonal{
+    display: inline-block;
+  }
+
+  .thirdCon{
+    display: flex;
+    gap: 70px;
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    font-size: large;
+  }
+  
+  .commercial{
+    float: right;
+  } 
+  
+  .imgcommercial{
+    display: inline-block;
+  }

@@ -33,6 +33,8 @@ export default function Footer() {
             <div className={styles.table + " "+ styles.test}>
                 <span>&#169; Turtle Shell</span>
                 <span>|</span>
+                <Link href='https://www.flaticon.com/'>Bildverweis</Link>
+                <span>|</span>
                 <span>AGB</span>
                 <span>|</span>
                 <Link href='/datenschutz'>Datenschutz</Link>

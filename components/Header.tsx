@@ -22,22 +22,18 @@ export function renderNavigation(hasNav: boolean) {
                 url: '/pricing'
             },
             {
-                name: 'Blog',
-                url: '/blog'
-            },
-            {
                 name: 'Entwickler',
                 buttons: [
                     {
-                    name: 'Zyrus',
+                    name: 'Documentation',
                     url: '/test1'
                     },
                     {
-                    name: 'DevCyntrix',
+                    name: 'Getting Started',
                     url: '/test2'
                     },
                     {
-                    name: 'Pascal God Deadwave',
+                    name: 'Turtle Shell Extensions',
                     url: '/test3'
                     }
                 ]

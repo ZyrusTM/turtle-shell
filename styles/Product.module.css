@@ -1,0 +1,61 @@
+.logoCon {
+    position:absolute;
+    max-width:45%;
+    max-height:45%;
+    top:50%;
+    left:50%;
+    overflow:visible;
+}
+
+.title{
+    /* font-size: large;
+    width: 80%;
+    margin: auto;
+    margin-top: 65px; */
+    text-align: center;
+    margin-top: 65px;
+}
+
+.introductionText{
+    font-size: large;
+    width: 35%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.textFeatures{
+    display: inline-block;
+}
+
+.featureCon{
+    display: flex;
+    gap: 15%;
+    width: 80%;
+    margin: auto;
+    margin-top: 65px;
+    flex-wrap: wrap;
+    font-size: large;
+}
+  
+.logo{
+    float: right;
+    margin-top: 50px;
+}
+
+.extensionCon{
+    display: flex;
+    gap: 27%;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    font-size: large;
+}
+
+.tsControl{
+    display: inline-block;
+}
+
+.tsHub{
+    float: right;
+}

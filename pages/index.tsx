@@ -104,7 +104,7 @@ export default function Home() {
       "Helpdesk"
     ]}></HeaderTabs> */}
 
-    <div className={styles.startPage}>
+    <div className={defStyles.extendedSizeNavBar}>
       <Header />
 
       <Image className={styles.logo} src={Logo} width={400} alt="Turtle Shell Logo"/>
