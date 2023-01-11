@@ -107,7 +107,9 @@ export default function Home() {
     <div className={defStyles.extendedSizeNavBar}>
       <Header />
 
-      <Image className={styles.logo} src={Logo} width={400} alt="Turtle Shell Logo"/>
+      <div className={styles.logoCon}>
+        <Image className={styles.logo} src={Logo} width={400} alt="Turtle Shell Logo"/>
+      </div>
 
       <div className={styles.subscription}>
           <h2>Abonniere unseren Newsletter</h2>
@@ -117,6 +119,7 @@ export default function Home() {
             <Button className={styles.subscribeButton}>Abonnieren</Button>
           </div>
       </div>
+      
     </div>
 
     <h1 className={styles.introduction}>Turtle Shell macht Entwicklung effizient und einfach</h1>
