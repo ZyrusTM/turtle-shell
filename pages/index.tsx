@@ -16,6 +16,7 @@ import Logo from '../public/img/logo.png'
 import Efficiency from '../public/img/effizienz.png'
 import Simplicity from '../public/img/einfach.png'
 import Independency from '../public/img/unabhangigkeit.png'
+import Container from '../public/img/containerLogo.png'
 
 const useStyles = createStyles((theme) => ({
   header: {
@@ -124,8 +125,6 @@ export default function Home() {
     </p>
 
     <div className={styles.outerCon}>
-    <div className={styles.container}>
-      <div>
         <div className={styles.benefitListItem}>
           <Image src={RelaxImage} width={150} alt="Relaxed man"/>
           <span>Sicherheit</span>
@@ -138,11 +137,7 @@ export default function Home() {
           <Image src={ProtectionImage} width={150} alt="Shield"/>
           <span>Komfort</span>
         </div>
-      </div>
-    </div>
 
-    <div className={styles.container2}>
-      <div>
         <div className={styles.benefitListItem}>
           <Image src={Simplicity} width={150} alt="Simplicity"/>
           <span>Simplizität</span>
@@ -152,11 +147,9 @@ export default function Home() {
           <span>Unabhängig</span>
         </div>
         <div className={styles.benefitListItem}>
-          <Image src={ProtectionImage} width={150} alt="Shield"/>
-          <span>Komfort</span>
+          <Image src={Container} width={150} alt="Container"/>
+          <span>Portabel</span>
         </div>
-      </div>
-    </div>
     </div>
   
 
